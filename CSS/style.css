@@ -134,6 +134,7 @@ body{
 				font-size: 23px;
 				margin: 52px 0px;
 				font-weight: 100;
+				width: 360px;
 			}
 
 		footer div.right{
@@ -237,9 +238,13 @@ body{
 								color: #fff;
 							}
 
-@media (max-width: 900px){ 
+@media (max-width: 1000px){ 
 	div.container{
 		width: calc(100%);
+	}
+	
+	div.upper{
+		display: none;	
 	}
 	
 	img.logo{
@@ -251,8 +256,40 @@ body{
 		margin-left: 20px;
 		margin-right: 20px;
 	}
+	
+		footer div.left, footer div.right{
+			margin-left: 35px;
+			margin-right: 35px;
+		}
 }
 
-@media (max-width: 700px){ 
+@media (max-width: 790px){ 
+	footer{
+		height: auto;
+		bottom: auto;
+	}
 	
+	div.container div.h-right{
+		width: 100%;
+		margin-top: 0px;
+	}
+	
+	h1, h2{
+		margin-left: 20px;
+		margin-right: 20px;
+		max-width: calc(100% - 40px);
+	}
+	
+	footer div.left, footer div.right{
+		width: calc(100% - 70px);
+		margin-left: 35px;
+		margin-right: 35px;
+		text-align: center;
+	}
+
+		footer div.left h4{
+			width: 100%;
+			text-align: center;
+			margin-bottom: 0px;
+		}
 }
