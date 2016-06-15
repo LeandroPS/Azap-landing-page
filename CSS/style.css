@@ -293,3 +293,17 @@ body{
 			margin-bottom: 0px;
 		}
 }
+
+@media (max-width: 360px){ 
+	footer div.right span.ligue{
+		font-size: 10px;
+	}
+
+	footer div.right span.ddd{
+		font-size: 25px;
+	}
+
+	footer div.right span.tel{
+		font-size: 35px;
+	}
+}
