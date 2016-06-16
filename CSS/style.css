@@ -4,7 +4,8 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	padding-bottom: 200px;
 	min-height: 100%;
-	background-color: #03235d;
+/*	background-color: #03235d;*/
+	background-color: #4D6479;
 	box-sizing: border-box;
 	position: relative;
 	
@@ -117,8 +118,9 @@ body{
 		z-index: 4;
 		clear: both;
 		
-		background-color: rgba(0,0,0,0.3);
+/*		background-color: rgba(0,0,0,0.3);*/
 /*		background-color: #141622;*/
+		background-color: #021941;
 	}
 
 		footer div.container{
