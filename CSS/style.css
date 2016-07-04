@@ -7,7 +7,7 @@ body{
 /*	background-color: #03235d;*/
 	background-color: #4D6479;
 	box-sizing: border-box;
-/*	position: relative;*/
+	position: relative;
 	
 }
 
@@ -307,5 +307,11 @@ body{
 
 	footer div.right span.tel{
 		font-size: 35px;
+	}
+}
+
+@media (min-height: 790px){ 
+	footer{
+		position: fixed;
 	}
 }
